@@ -1,4 +1,4 @@
-# This file contains information for "Getting and Cleaning Data" Course Project submission.
+## This file contains information for "Getting and Cleaning Data" Course Project submission.
 
 ===========================================================================================
 'run_analysis.R' file contains code that performs the following operations with 
@@ -28,10 +28,12 @@ and all .txt files containing original datasets (the list below) are saved in th
 The code uses plyr library. Make sure it is installed before running the code.
 
 =============================================================================================
-HOW THE SCRIPT WORKS
+**HOW THE SCRIPT WORKS**
+
 Downloads all data from the files above into 8 separate data frames 
 (corresponding to the files above): features, activities, trainData, trainLabels, trainSubjects,
-testData, testLabels, testSubjects.
+testData, testLabels, testSubjects.  
+
 **Task 1:**
 Merges trainSubjects, trainLabels, trainData using cbind into fulltrainDataset, 
 testSubjects, testLabels, testData - into fulltestDataset.
